@@ -22,7 +22,7 @@ function WeatherApi() {
     <div>
         <div className="app">
           <div className="container">
-            {data !== {} ? <h1>WEATHER</h1> : ""}
+            <h1>WEATHER</h1>
             <div className="search">
                 <TextField id="outlined-basic" label="Location" color="warning" placeholder='Enter the location' value={location} 
                         onChange={event => setLocation(event.target.value)} />
