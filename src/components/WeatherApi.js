@@ -12,8 +12,8 @@ function WeatherApi() {
 
   const searchLocation = (event) => {
     axios.get(url).then((response) => {
-    setData(response.data);
-    console.log(response.data);
+      setData(response.data);
+      console.log(response.data);
     })
     setLocation('');
   }
