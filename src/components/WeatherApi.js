@@ -30,7 +30,7 @@ function WeatherApi() {
             </div>
           <div className="top">
             <div className="location">
-            {data.main ?<p>{data.name.toUpperCase()}</p> : null}
+              {data.main ?<p>{data.name.toUpperCase()}</p> : null}
             </div>
             <div className="detail">
                 <div className="temp">
